@@ -19,3 +19,4 @@ $entries = $xpath->query($query);
 var_dump($entries->item(0)->textContent);
 
 ?>
+<?php print_r(stream_get_wrappers()); ?>
